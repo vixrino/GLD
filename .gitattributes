@@ -1,0 +1,4 @@
+# GitHub Linguist : exclure les artefacts du notebook
+# (le .html est un export du .ipynb, pas du code source)
+notebooks/*.html linguist-generated=true
+notebooks/*.ipynb linguist-documentation=true
