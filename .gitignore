@@ -1,0 +1,32 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+.venv/
+venv/
+env/
+.env
+.envrc
+
+# data artefacts
+data/raw/
+data/processed/
+*.parquet
+*.xls
+*.xlsx
+*.csv.tmp
+
+# notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
